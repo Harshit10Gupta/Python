@@ -1,7 +1,11 @@
-x=5
-y=6
-z=x
-x=y
-y=z
-print(x)
-print(y)
+#wap in python swappimg using third variable
+a,b=input("enter the value for a and b\n").split(" ")
+print("value of a="+a)
+print("value of b="+b)
+temp=a
+a=b
+b=temp
+print("after swapping")
+print("value of a="+a)
+print("value of b="+b)
+
