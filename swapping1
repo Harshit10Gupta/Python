@@ -1,0 +1,10 @@
+#wap in python swappimg  without using third variable
+a,b=int(input("enter the value for a")),int(input("enter the value for b"))
+print("value of a="+str(a))
+print("value of b="+str(b))
+a=a+b
+b=a-b
+a=a-b
+print("after swapping")
+print("value of a="+str(a))
+print("value of b="+str(b))
