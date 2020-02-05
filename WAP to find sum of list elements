@@ -1,0 +1,13 @@
+#WAP to find sum of list elements
+l=[]
+sum=0
+size=int(input("Enter the size of list\n"))
+for i in range(0,size,1):
+    data=int(input("Enter the element"))
+    l.append(data)
+sum=0
+for i in range(0,size,1):
+    sum+=l[i]
+    #sum=int(sum)
+print("sum of the list elements are:",sum)
+
