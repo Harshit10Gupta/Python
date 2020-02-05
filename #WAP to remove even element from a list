@@ -1,0 +1,17 @@
+#WAP to remove even element from a list
+l=[]
+size=int(input("Enter the size of list\n"))
+for i in range(0,size):
+    data=int(input("Enter the element"))
+    l.append(data)
+print(l)
+for i in range(0,size):
+    if l[i]%2==0:
+        #l.remove(l[i])
+       #l.pop(l[i])
+       l[i]=0
+print(l)
+for i in range(0,size):
+    if l[i]!=0:
+        print(l[i],end=" ")
+        
