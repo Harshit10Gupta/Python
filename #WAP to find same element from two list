@@ -1,0 +1,30 @@
+#WAP to find same element from two list
+def same(l,ll):
+    for i in range(0,size):
+        for j in range(0,size):
+            if l[i]==ll[j]:
+                return True
+            
+        
+
+
+
+size=int(input("Enter the size of list\n"))
+l=[]
+print("Enter first list element\n")
+for i in range(0,size):
+    data=int(input("Enter the element"))
+    l.append(data)
+
+ll=[]
+print("Enter second list element\n")
+for i in range(0,size):
+    data=int(input("Enter the element"))
+    ll.append(data)
+var=same(l,ll)
+if var==True:
+    print("True")
+else:
+    print("False")
+
+
